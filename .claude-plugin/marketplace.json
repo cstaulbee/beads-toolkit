@@ -1,0 +1,23 @@
+{
+  "version": "1",
+  "name": "beads-toolkit",
+  "description": "Marketplace hosting the beads-toolkit plugin: design-to-beads, epic-quality-pass, and build-dispatch.",
+  "owner": {
+    "name": "Chris",
+    "url": "https://github.com/cstaulbee"
+  },
+  "plugins": [
+    {
+      "name": "beads-toolkit",
+      "source": {
+        "type": "git",
+        "url": ".",
+        "path": "."
+      },
+      "description": "Three-stage build pipeline on beads: design->sized epic, epic->buildability score, epic->merged PR.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/cstaulbee/beads-toolkit",
+      "license": "MIT"
+    }
+  ]
+}

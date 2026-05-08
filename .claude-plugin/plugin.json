@@ -1,0 +1,23 @@
+{
+  "name": "beads-toolkit",
+  "version": "0.1.0",
+  "description": "Three-stage autonomous build pipeline for Claude Code, built on beads. design-to-beads converts a design doc into a sized, dependency-validated epic; epic-quality-pass scores buildability before dispatch; build-dispatch orchestrates parallel TDD pipelines and ships one PR per epic.",
+  "author": {
+    "name": "Chris",
+    "url": "https://github.com/cstaulbee"
+  },
+  "homepage": "https://github.com/cstaulbee/beads-toolkit",
+  "repository": "https://github.com/cstaulbee/beads-toolkit",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "beads",
+    "tdd",
+    "orchestrator",
+    "build-pipeline",
+    "git-worktree",
+    "prd",
+    "design-doc",
+    "planning"
+  ]
+}
