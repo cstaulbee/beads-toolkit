@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "beads-toolkit",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "cstaulbee/beads-toolkit"
+      },
       "description": "Three-stage build pipeline on beads: design->sized epic, epic->buildability score, epic->merged PR.",
       "version": "0.1.0",
       "homepage": "https://github.com/cstaulbee/beads-toolkit",
