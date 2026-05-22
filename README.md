@@ -52,11 +52,11 @@ Pure-dispatcher orchestrator. Picks the next ready epic, dispatches a per-bead *
 
 ```
 /plugin marketplace add cstaulbee/beads-toolkit
-/plugin install beads-toolkit@cstaulbee-beads-toolkit
+/plugin install beads-toolkit@beads-toolkit
 ```
 
-Updates: `/plugin update beads-toolkit@cstaulbee-beads-toolkit`.
-Uninstall: `/plugin uninstall beads-toolkit@cstaulbee-beads-toolkit`.
+Updates: `/plugin update beads-toolkit@beads-toolkit`.
+Uninstall: `/plugin uninstall beads-toolkit@beads-toolkit`.
 
 ## Quickstart — end-to-end
 
@@ -129,7 +129,7 @@ The previous `cstaulbee/build-dispatch` and `cstaulbee/design-to-beads` plugins 
 /plugin marketplace remove cstaulbee/design-to-beads
 
 /plugin marketplace add cstaulbee/beads-toolkit
-/plugin install beads-toolkit@cstaulbee-beads-toolkit
+/plugin install beads-toolkit@beads-toolkit
 ```
 
 ## License
